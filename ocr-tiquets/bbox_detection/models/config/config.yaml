@@ -1,0 +1,17 @@
+# dataset root dir (absolute)
+path: /home/jaume/tiquets/ocr-tiquets/bbox_detection/data_yolo/
+
+# train images (relative to 'path')
+train: images/train
+
+# val images (relative to 'path')
+val: images/train
+
+# classes
+names:
+  0: descripcio 
+  1: quantitat_ud 
+  2: quantitat_kg 
+  3: import 
+  4: total 
+  5: preu_unitari

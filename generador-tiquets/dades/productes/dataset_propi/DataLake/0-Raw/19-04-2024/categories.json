@@ -1,0 +1,1483 @@
+{
+    "next": null,
+    "count": 26,
+    "results": [
+        {
+            "id": 12,
+            "name": "Oli, espècies i salses",
+            "order": 7,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 112,
+                    "name": "Oli, vinagre i sal",
+                    "order": 7,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 115,
+                    "name": "Espècies",
+                    "order": 7,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 116,
+                    "name": "Maionesa, quètxup i mostassa",
+                    "order": 7,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 117,
+                    "name": "Altres salses",
+                    "order": 7,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 18,
+            "name": "Aigua i refrescos",
+            "order": 8,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 156,
+                    "name": "Aigua",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 163,
+                    "name": "Beguda isotònica i energètica",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 158,
+                    "name": "Refresc de cola",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 159,
+                    "name": "Refresc de taronja i de llimona",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 161,
+                    "name": "Tònica i bíter",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 162,
+                    "name": "Refresc de te i sense gas",
+                    "order": 8,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 15,
+            "name": "Aperitius",
+            "order": 9,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 135,
+                    "name": "Olives i envinagrats",
+                    "order": 9,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 133,
+                    "name": "Fruita seca i fruita dessecada",
+                    "order": 9,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 132,
+                    "name": "Patates fregides i snacks",
+                    "order": 9,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 13,
+            "name": "Arròs, llegums i pasta",
+            "order": 10,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 118,
+                    "name": "Arròs",
+                    "order": 10,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 121,
+                    "name": "Llegums",
+                    "order": 10,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 120,
+                    "name": "Pasta i fideus",
+                    "order": 10,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 9,
+            "name": "Sucre, caramels i xocolata",
+            "order": 11,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 89,
+                    "name": "Sucre i edulcorant",
+                    "order": 11,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 95,
+                    "name": "Xiclets i caramels",
+                    "order": 11,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 92,
+                    "name": "Xocolata",
+                    "order": 11,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 97,
+                    "name": "Llaminadures",
+                    "order": 11,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 90,
+                    "name": "Melmelada i mel",
+                    "order": 11,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 24,
+            "name": "Nadó",
+            "order": 14,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 216,
+                    "name": "Alimentació infantil",
+                    "order": 14,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 219,
+                    "name": "Biberó i xumet",
+                    "order": 14,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 218,
+                    "name": "Higiene i cura",
+                    "order": 14,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 217,
+                    "name": "Tovalloletes i bolquers",
+                    "order": 14,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 19,
+            "name": "Celler",
+            "order": 15,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 164,
+                    "name": "Cervesa",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 166,
+                    "name": "Cervesa sense alcohol",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 181,
+                    "name": "Licors",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 174,
+                    "name": "Sidra i cava",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 168,
+                    "name": "Vi negre d'estiu i sangria",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 170,
+                    "name": "Vi blanc",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 173,
+                    "name": "Vi lambrusco i escumós",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 171,
+                    "name": "Vi rosat",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 169,
+                    "name": "Vi negre",
+                    "order": 15,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 8,
+            "name": "Cacau, cafè i infusions",
+            "order": 16,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 86,
+                    "name": "Cacau soluble i xocolata desfeta",
+                    "order": 16,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 81,
+                    "name": "Cafè en càpsula i monodosi",
+                    "order": 16,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 83,
+                    "name": "Cafè molt i en gra",
+                    "order": 16,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 84,
+                    "name": "Cafè soluble i altres begudes",
+                    "order": 16,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 88,
+                    "name": "Te i infusions",
+                    "order": 16,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 3,
+            "name": "Carn",
+            "order": 17,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 46,
+                    "name": "Preparats",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 38,
+                    "name": "Aus i pollastre",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 47,
+                    "name": "Carn congelada",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 37,
+                    "name": "Porc",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 42,
+                    "name": "Conill i xai",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 43,
+                    "name": "Embotit",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 44,
+                    "name": "Hamburgueses i picades",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 40,
+                    "name": "Boví",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 45,
+                    "name": "Arrebossats i elaborats",
+                    "order": 17,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 7,
+            "name": "Cereals i galetes",
+            "order": 18,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 78,
+                    "name": "Cereals",
+                    "order": 18,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 80,
+                    "name": "Galetes",
+                    "order": 18,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 79,
+                    "name": "Coquetes",
+                    "order": 18,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 4,
+            "name": "Xarcuteria i formatges",
+            "order": 159,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 48,
+                    "name": "Aus i pernil dolç",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 52,
+                    "name": "Bacó i salsitxes",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 49,
+                    "name": "Xòped i mortadel·la",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 51,
+                    "name": "Embotit curat",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 50,
+                    "name": "Pernil serrà",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 58,
+                    "name": "Paté i sobrassada",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 54,
+                    "name": "Formatge curat, semicurat i tendre",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 56,
+                    "name": "Formatge talls, ratllat i en porcions",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 53,
+                    "name": "Formatge d'untar i fresc",
+                    "order": 159,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 17,
+            "name": "Congelats",
+            "order": 213,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 147,
+                    "name": "Arròs i pasta",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 148,
+                    "name": "Carn",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 154,
+                    "name": "Gelats",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 155,
+                    "name": "Gel",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 150,
+                    "name": "Marisc",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 149,
+                    "name": "Peix",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 151,
+                    "name": "Pizzes",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 884,
+                    "name": "Arrebossats",
+                    "order": 213,
+                    "layout": 2,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 152,
+                    "name": "Pastissos i xurros",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 145,
+                    "name": "Verdura",
+                    "order": 213,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 14,
+            "name": "Conserves, brous i cremes",
+            "order": 215,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 122,
+                    "name": "Tonyina i altres conserves de peix",
+                    "order": 215,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 123,
+                    "name": "Escopinyes i musclos",
+                    "order": 215,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 127,
+                    "name": "Conserves de verdura i fruita",
+                    "order": 215,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 130,
+                    "name": "Gaspatxo i cremes",
+                    "order": 215,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 129,
+                    "name": "Sopa i brou",
+                    "order": 215,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 126,
+                    "name": "Tomàquet",
+                    "order": 215,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 21,
+            "name": "Cura dels cabells",
+            "order": 238,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 201,
+                    "name": "Condicionador i màscara",
+                    "order": 238,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 199,
+                    "name": "Xampú",
+                    "order": 238,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 203,
+                    "name": "Coloració cabells",
+                    "order": 238,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 202,
+                    "name": "Fixació cabells",
+                    "order": 238,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 20,
+            "name": "Cura facial i corporal",
+            "order": 241,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 192,
+                    "name": "Afaitada i cura per a home",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 189,
+                    "name": "Cura corporal",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 185,
+                    "name": "Cura i higiene facial",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 191,
+                    "name": "Depilació",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 188,
+                    "name": "Desodorant",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 187,
+                    "name": "Gel i sabó de mans",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 186,
+                    "name": "Higiene bucal",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 190,
+                    "name": "Higiene íntima",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 194,
+                    "name": "Manicura i pedicura",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 196,
+                    "name": "Perfum i colònia",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 198,
+                    "name": "Protector solar i crema postsolar",
+                    "order": 241,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 23,
+            "name": "Fitoteràpia i parafarmàcia",
+            "order": 303,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 213,
+                    "name": "Fitoteràpia",
+                    "order": 303,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 214,
+                    "name": "Parafarmàcia",
+                    "order": 303,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 1,
+            "name": "Fruita i verdura",
+            "order": 304,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 27,
+                    "name": "Fruita",
+                    "order": 304,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 28,
+                    "name": "Enciam i amanida preparada",
+                    "order": 304,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 29,
+                    "name": "Verdura",
+                    "order": 304,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 6,
+            "name": "Ous, llet i mantega",
+            "order": 371,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 77,
+                    "name": "Ous",
+                    "order": 371,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 72,
+                    "name": "Llet i begudes vegetals",
+                    "order": 371,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 75,
+                    "name": "Mantega i margarina",
+                    "order": 371,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 26,
+            "name": "Neteja i llar",
+            "order": 372,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 226,
+                    "name": "Detergent i suavitzant roba",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 237,
+                    "name": "Fregall, baieta i guants",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 241,
+                    "name": "Insecticida i ambientador",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 234,
+                    "name": "Lleixiu i líquids forts",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 235,
+                    "name": "Netejavidres",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 233,
+                    "name": "Netejador domèstic i líquid de fregar",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 231,
+                    "name": "Neteja bany i WC",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 230,
+                    "name": "Neteja cuina",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 232,
+                    "name": "Neteja mobles i multiusos",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 229,
+                    "name": "Neteja vaixella",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 243,
+                    "name": "Parament i conservació d'aliments",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 238,
+                    "name": "Paper higiènic i cel·lulosa",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 239,
+                    "name": "Piles i bosses d'escombraries",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 244,
+                    "name": "Estris de neteja i calçat",
+                    "order": 372,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 22,
+            "name": "Maquillatge",
+            "order": 419,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 206,
+                    "name": "Bases de maquillatge i corrector",
+                    "order": 419,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 207,
+                    "name": "Coloret i pólvores",
+                    "order": 419,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 208,
+                    "name": "Llavis",
+                    "order": 419,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 210,
+                    "name": "Ulls",
+                    "order": 419,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 212,
+                    "name": "Pinzells i brotxes",
+                    "order": 419,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 2,
+            "name": "Marisc i peix",
+            "order": 439,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 32,
+                    "name": "Marisc",
+                    "order": 439,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 34,
+                    "name": "Peix congelat",
+                    "order": 439,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 31,
+                    "name": "Peix fresc",
+                    "order": 439,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 36,
+                    "name": "Salaons i fumats",
+                    "order": 439,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 789,
+                    "name": "Sushi",
+                    "order": 439,
+                    "layout": 2,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 25,
+            "name": "Mascotes",
+            "order": 440,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 222,
+                    "name": "Gat",
+                    "order": 440,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 221,
+                    "name": "Gos",
+                    "order": 440,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 225,
+                    "name": "Altres",
+                    "order": 440,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 5,
+            "name": "Forn i pastisseria",
+            "order": 512,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 65,
+                    "name": "Brioixeria de forn",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 66,
+                    "name": "Brioixeria envasada",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 69,
+                    "name": "Farina i preparat de rebosteria",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 59,
+                    "name": "Pa de forn",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 60,
+                    "name": "Pa de motlle i altres especialitats",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 62,
+                    "name": "Pa torrat i ratllat",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 64,
+                    "name": "Puntes, bastonets i crostons",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 68,
+                    "name": "Pastissos",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 71,
+                    "name": "Espelmes i decoració",
+                    "order": 512,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 16,
+            "name": "Pizzes i plats preparats",
+            "order": 594,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 897,
+                    "name": "A punt per menjar",
+                    "order": 594,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 138,
+                    "name": "Pizzes",
+                    "order": 594,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 140,
+                    "name": "Plats preparats calents",
+                    "order": 594,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 142,
+                    "name": "Plats preparats freds",
+                    "order": 594,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 11,
+            "name": "Postres i iogurts",
+            "order": 595,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 105,
+                    "name": "Bífidus",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 110,
+                    "name": "Flam i natilles",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 111,
+                    "name": "Gelatina i altres postres",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 106,
+                    "name": "Postres de soja",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 103,
+                    "name": "Iogurts desnatats",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 109,
+                    "name": "Iogurts grecs",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 108,
+                    "name": "Iogurts líquids",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 104,
+                    "name": "Iogurts naturals i de sabors",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 107,
+                    "name": "Iogurts i postres infantils",
+                    "order": 595,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        },
+        {
+            "id": 10,
+            "name": "Sucs",
+            "order": 790,
+            "layout": 2,
+            "published": true,
+            "categories": [
+                {
+                    "id": 99,
+                    "name": "Fruita variada",
+                    "order": 790,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 100,
+                    "name": "Préssec i pinya",
+                    "order": 790,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 143,
+                    "name": "Taronja",
+                    "order": 790,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                },
+                {
+                    "id": 98,
+                    "name": "Tomàquet i altres sabors",
+                    "order": 790,
+                    "layout": 1,
+                    "published": true,
+                    "is_extended": false
+                }
+            ],
+            "is_extended": false
+        }
+    ],
+    "previous": null
+}

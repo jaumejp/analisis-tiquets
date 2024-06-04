@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mostra Tiquet</title>
+    <style>
+        :root {
+            --barcode-color: #000;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        .container {
+            width: 500px;
+            padding: 25px;
+            background-color: #fff;
+        }
+        .mt-20 {
+            margin-top: 20px;
+        }
+        .mb-20 {
+            margin-bottom: 20px;
+        }
+        .mt-10 {
+            margin-top: 10px;
+        }
+
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+        .txt-right {
+            text-align: right;
+        }
+        .txt-center {
+            text-align: center;
+        }
+        .w-100 {
+            width: 100%;
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+        }
+
+        .header img {
+            width: 50px;
+            height: 50px; 
+        }
+
+        /* Barcode */
+        .barcode {
+            display: flex;
+            justify-content: center;
+        }
+
+        .stripe {
+            height: 40px; 
+            width: 5px; 
+            
+            margin-left: 1px; 
+            border-left: 5px solid var(--barcode-color); 
+        }
+
+        .s-1 {
+            margin-left: 2px;
+            border-left: 1px solid var(--barcode-color); 
+        }
+        .s-2 {
+            margin-left: 3px;
+            border-left: 3px solid var(--barcode-color); 
+        }
+        .s-3 {
+            margin-left: 2px;
+            border-left: 2px solid var(--barcode-color); 
+        }
+
+        .s-4 {
+            margin-left: 0px;
+            border-left: 5px solid var(--barcode-color); 
+        }
+
+        /* Products section */
+        table {
+            border-collapse: collapse;
+        }
+        .row-1 {
+            border-bottom: 1px solid black;
+
+            position: absolute;
+            top: 290px;
+            left: 25px;
+
+            width: 450px;
+            height: 20px;
+
+            display: flex;
+            align-items: center;
+        }
+        .col-1 {
+            position: absolute;
+
+            width: 40px;
+            height: 20px;
+        }
+        .col-2 {
+            position: absolute;
+            left: 40px;
+
+            width: 200px;
+            height: 20px;
+
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        .col-3 {
+            position: absolute;
+            left: 282.5px;
+
+            width: 70px;
+            height: 20px;
+
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .col-4 {
+            position: absolute;
+            left: 395px;
+
+            width: 55px;
+            height: 20px;
+
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+        .units {
+            position: absolute;
+            left: 25px;
+
+            width: 40px;
+            height: 20px;
+
+            display: flex;
+            align-items: center;
+        }
+        .description {
+            position: absolute;
+            left: 65px;
+
+            width: 200px;
+            height: 20px; /* In function of products */
+
+            display: flex;
+            align-items: center;
+        }
+        .p-unit {
+            position: absolute;
+            left: 307.5px; 
+            width: 70px;
+            height: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+        .import {
+            position: absolute;
+            left: 430px; /* table with (450) - with */
+
+            width: 45px;
+            height: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+        .blank-row {
+            position: absolute;
+            left: 25px; 
+
+            width: 450px;
+            height: 20px;
+        }
+
+        .ivas-table th, .ivas-table td {
+            padding-left: 20px;
+            text-align: center;
+        }
+        .ivas-title th{
+            font-weight: normal;
+        }
+        .contact-less-img {
+            margin-left: auto; 
+            margin-right: auto; 
+            margin-bottom: 5px;
+            width: 30px;
+            height: 30px;
+        }
+        /* footer */
+        .footer {
+            position: absolute;
+            width: 450px;
+        }
+        .footer-img {
+            height: 45px;
+            width: 145px;
+            margin: 20px 0 10px 152.5px;
+        }
+        .footer-txt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div style="height: {{ height }}px;" class="container">
+        <header class="header">
+            <img class="mb-10" src="data:image/jpeg;base64, {{logo_top}}" alt="mercadona_logo_top">
+            <span class="mb-10"><b>{{ nom }}</b></span>
+            <span>{{ adressa }}</span> 
+            <span>{{ ciutat }}</span>
+            <span>TELÈFON: {{ telf }}</span>
+            <span>{{ data }} OP: {{ op }}</span> 
+            <span>FACTURA SIMPLIFICADA: {{ factura_simplificada }}</span>
+            <section class="mt-10 mb-10 barcode">
+                {% for rand in rand_one_to_four %}
+                <span class="stripe s-{{ rand }}"></span>
+                {% endfor %}
+            </section>
+        </header>
+        
+        <main>
+            <table>
+                <thead>
+                    <tr class="row-1">
+                        <th class="col-1"></th>
+                        <th class="col-2">Descripció</th>
+                        <th class="col-3">P. Unit</th>
+                        <th class="col-4">Import</th>
+                    </tr>
+                </thead>
+                <tbody class="products">
+                    {% set count = namespace(value=1) %}
+                    {% for product in products %}
+                        {% if product.format == "ud" %}               
+                            <tr>          
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="units">{{ product.quantitat_ud }}</td>              
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="description">{{ product.descripcio }}</td>
+                                {% if product.quantitat_ud == '1' %}
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="p-unit"></td>             
+                                {% else %}
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="p-unit">{{ product.preu_unitari }}</td>             
+                                {% endif %}             
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="import">{{ product.import }}</td>             
+                            </tr>
+                            {% set count.value = count.value + 1 %}
+                        {% else %}
+                            <tr>          
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="units">1</td>              
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="description">{{ product.descripcio }}</td>             
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="p-unit"></td>             
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="import"></td>             
+                            </tr>
+                            {% set count.value = count.value + 1 %}
+                            <tr>
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="units"></td> 
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px); left: 99px; width: 166px" class="description">{{ product.quantitat_kg }} kg</td> 
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="p-unit">{{ product.preu_unitari }} €/kg</td>
+                                <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="import">{{ product.import }}</td> 
+                            </tr>
+                            {% set count.value = count.value + 1 %}
+                        {% endif %}
+                    {% endfor %}
+                        
+                    <tr style="top: calc(290px + {{ (count.value *20) | int }}px)" class="blank-row"></tr>
+                    {% set count.value = count.value + 1 %}
+                                     
+                    <tr>
+                        <td style="top: calc(290px + {{ (count.value *20) | int }}px); width: 177.5px; left: 200px" class="p-unit"><b>TOTAL (€)</b></td> 
+                        <td <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="import"><b>{{ total_amb_IVA }}</b></td> 
+                        {% set count.value = count.value + 1 %}
+                    </tr>
+                    <tr>
+                        <td style="top: calc(290px + {{ (count.value *20) | int }}px); width: 177.5px; left: 200px" class="p-unit"><b>TARGETA BANCÀRIA</b></td> 
+                        <td <td style="top: calc(290px + {{ (count.value *20) | int }}px)" class="import"><b>{{ total_amb_IVA }}</b></td> 
+                        {% set count.value = count.value + 1 %}
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer style="top: calc(290px + {{ count.value *20 | int }}px + 20px)" class="footer">
+            <table class="ivas-table w-100" style="width: 100%;">
+                <thead>
+                    <tr class="ivas-title">
+                        <th>IVA</th>
+                        <th>BASE IMPOSABLE (€)</th>
+                        <th>QUOTA (€)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for iva in ivas %}
+                    <tr>
+                        <td>{{ iva.valor }}</td> 
+                        <td>{{ iva.base_imposable }}</td> 
+                        <td>{{ iva.quota }}</td> 
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        <td><b>TOTAL</b></td>
+                        <td><b>{{ total_sense_IVA }}</b></td> 
+                        <td><b>{{ iva_total }}</b></td> 
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="mt-20 mb-10 w-100">
+                <tr>
+                    <td colspan="2">TARG. BANCÀRIA: {{ targeta_bancaria }}</th>
+                </tr>
+                <tr>
+                    <td>N.C: {{ NC }}</td> 
+                    <td class="txt-right">AUT: {{ AUT }}</td> 
+                </tr>
+                <tr>
+                    <td>AID: {{ AID }}</td> 
+                    <td class="txt-right">ARC: {{ ARC }}</td> 
+                </tr>
+            </table>
+
+            <div style="display: flex; align-items: center; width: 100%;">
+                <img class="contact-less-img" src="data:image/jpeg;base64, {{logo_contact_less}}" alt="mercadona_logo_contact_less">
+            </div>
+
+            <table class="w-100">
+                <tr>
+                    <td colspan="2">{{ targeta_1 }}</td> 
+                </tr>
+                <tr>
+                    <td>Import: {{ total_amb_IVA }} €</td> 
+                    <td class="txt-right">{{ targeta_2 }}</td>
+                </tr>
+            </table>
+
+            <div>
+                <img class="footer-img" src="data:image/jpeg;base64, {{logo_bottom}}" alt="mercadona_logo_bottom">
+                <span class="footer-txt">S'ADMETEN DEVOLUCIONS AMB TIQUET</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+-- MANUAL DE COM CONNECTAR AZURE SQL SERVER AMB POWER BI --
+
+1. Hem de anar obtener datos.
+2. Azure.
+3. Azure SQL Database
+4. Posar el nom del nostre servidor en el meu cas. (En el nostre cas: sql-otorrent-etl.database.windows.net)
+5. Seleccionem la opció de DirectQuery. Agafem les dades directament de la base de dades perquè es vagin actualitzant en canvi de importar-les directament.
+6. Seleccionem la base de dades que volem utilitzar. I les taules. Les carraguem.
+7. Ara ja podem començar a treballar amb les dades.

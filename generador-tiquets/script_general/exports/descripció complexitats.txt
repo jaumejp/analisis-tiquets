@@ -1,0 +1,55 @@
+TIQUETS AMB: 
+
+Complexitat 0:
+	- Només amb productes unitaris (1 línia per producte)
+	- Mateixa quantitat de productes (5 per tiquet)
+
+Complexitat 1: 
+	- Només amb productes €/kg (2 línies per producte)
+	- Mateixa quantitat de productes (5 per tiquet)
+
+Complexitat 2: 
+	- Només amb productes unitaris
+	- Número random de productes per tiquet (1-15)
+
+Complexitat 3: 
+	- Només amb productes €/kg
+	- Número random de productes per tiquet
+
+Complexitat 4: 
+	- Productes unitaris i €/kg
+	- Mateixa quantitat de productes per tiquet
+
+Complexitat 5: 
+	- Productes unitaris i €/kg
+	- Número random de productes per tiquet
+
+
+
+
+ESTRUCTURA CARPETES: 
+- Dins cada carpeta complexitat_x, tenim:
+	- coco:
+		- Fitxers: 
+			- bbx_area_products_in_ticket.csv (coordenades del recuadre)
+			- bbx_products_in_area.csv (coordenades dels productes dins el recuadre)
+			- bbx_products_in_ticket.csv (coordenades dels productes dins el tiquet general)
+
+ 		- Carpetes:
+			- tickets (Carpeta per guardar les imatges dels tiquets sensers)
+			- cropped_area_products_in_ticket (Carpeta per guardar la part dels tiquets que és la secció de productes)
+
+	- yolo
+		- tickets 
+			- images/train (imatges dels tiquets sensers)
+			- labels/train (coordenades dels productes del tiquet complet en format yolo, 5 labels)
+		- cropped_area_products_in_ticket
+			- cuted_section:
+				- images/train -> img (els retalls)
+				- labels/train -> txt (les coordenades del retall) (1 label)
+			- products_on_cuted_section:
+				- images/train -> img (els retalls)
+				- labels/train -> txt (les coordenades de cada productes respecte el retall) (5 labels)
+
+
+

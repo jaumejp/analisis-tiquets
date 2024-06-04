@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escaner Tiquets</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="./styles/common.css">
+    <script src="./scripts/script.js" type="module"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="header-navbar container">
+            <div class="logo"><a href="#">Home</a></div>
+            <ul>
+                <li><a target="_blank" href="https://docs.google.com/document/d/1AQ-XirPz115jT8JyThEN6cq2m7xJLJ0SR3jGpRm64Jg/edit?usp=sharing">Projecte</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-content">
+            <div class="container">
+                <div class="descripcio">
+                    <p>Escaner Tiquets</p>
+                    <h1>Extracció de la informació dels tiquets del Mercadona.</h1>
+                    <p>Curs IA-BD</p>
+                </div>
+                <img src="./images//logo_no_bg.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="container" >
+        <div class="container__two-columns">
+            <section class="description">
+                <h3>Puja el teu tiquet amb PDF:</h3>
+                <div class="btn-box">
+                    <div class="box">
+                        <a id="proccesPdf" href="#">Proccesar</a>
+                    </div>
+                    <div class="box">
+                        <a id="resetBtn" href="#">Reset</a>
+                    </div>
+                </div>
+                <div class="description__information">
+                    <div class="drag-and-drop box-content">
+                        <div id="inputs_container" class="drag-and-drop_div "> <!-- d-none is added here when it has to be hidden -->
+                            <input type="file" id="fileUploader" name="avatar" accept="application/pdf,image/*">
+                            <label>User Id:</label>
+                            <input type="number" id="userId" name="userId" />
+                        </div>
+                        
+                        <!-- src is added when comes the response from the api -->
+                        <img 
+                            id="ticket_img"
+                            src=""
+                            alt=""
+                            style="max-width: 500px;"
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section class="description">
+                <h3>Informació del tiquet:</h3>
+                <div class="btn-box">
+                    <div class="box">
+                        <a href="./powerBi.html">Power BI</a>
+                    </div>
+                    <div class="box btn-disabled" id="audioBtn">
+                        <a href="#" >Reproduir Àudio</a>
+                    </div>
+                </div>
+                <div class="description__information">
+                    <textarea class="pdf-info box-content"></textarea>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div style="display: none;" id="audioBase64"></div>
+
+</body>
+</html>

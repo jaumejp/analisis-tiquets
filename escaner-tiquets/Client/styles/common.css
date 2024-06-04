@@ -1,0 +1,210 @@
+/* Importem la fotn poppins de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Eliminem el CSS per defecte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Estils per el header */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Navbar */
+.header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header-navbar ul {
+    display: flex;
+}
+
+.header-navbar li {
+    list-style-type: none;
+
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid blue;
+}
+
+
+nav a:visited {
+    text-decoration: none;
+    padding: 0 30px;
+    color: black;
+}
+
+/* Botó desplegable */
+.contingut-desplegat {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 80px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.desplegable:hover .contingut-desplegat {
+    display: block;
+}
+.contingut-desplegat a {
+    display: block;
+    padding: 6px 8px;
+    color: #000;
+}
+.contingut-desplegat a:hover {
+    border-bottom: 0;
+    background-color: #ddd;
+}
+
+/* Slider del header */
+.header-content .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+
+.header-content .container img {
+    padding: 30px 0;
+    max-width: 100%;
+    filter: saturate(0%) brightness(200%);
+}
+.header-content .container p img {
+    max-width: 1%;
+}
+
+.header-content .container .descripcio {
+    padding: 50px 0;
+    color: #fff;
+}
+
+.header-content .descripcio > * {
+    padding: 10px 0;
+}
+
+.header-content .descripcio a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-content {
+    background-image: linear-gradient(109.6deg,  #1D896E 11.2%, #00AA61 91.2% );
+}
+
+.names {
+    font-size: 10px;
+}
+
+/* estils del main */
+h3 {
+    text-align: center;
+}
+
+.container__two-columns {
+    display: grid; 
+    gap: 25px; 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container section { 
+    margin: 30px 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background: black;
+    margin: 25px auto;
+}
+
+.box-content {
+    border-radius: 10px;
+    height: 100%; 
+    width: 100%; 
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.drag-and-drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+}
+
+
+.pdf-info {
+    overflow: auto;
+    resize: none;
+}
+
+.drag-and-drop_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.drag-and-drop label {
+    margin-top: 25px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-box {
+    display: flex;
+    
+}
+
+.description__information {
+    height: 100%;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* classes modificades per JS */
+
+.d-none {
+    display: none;
+}
+
+.btn-disabled {
+    background: #ccc;
+}

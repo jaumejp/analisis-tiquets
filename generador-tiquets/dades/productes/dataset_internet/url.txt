@@ -1,0 +1,3 @@
+Aquest dataset es de un ropositori de GitHub el qual agrupa moltes dades.
+
+https://github.com/Data-Market/productos-de-supermercados
